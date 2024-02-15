@@ -6,14 +6,14 @@ import{rendermenu} from './menu.js'
 
 
 
- let poop = document.getElementById('hometab')
+ let hometab = document.getElementById('hometab')
  let menutab = document.getElementById('menutab')
 
 
 menutab.addEventListener('click',rendermenu)
-
- 
-poop.addEventListener('click',()=>{console.log("ello")})
-
+hometab.addEventListener('click',rendermain)
 rendermain()
+ 
+hometab.addEventListener('click',()=>{console.log("ello")})
+
 
