@@ -35,6 +35,32 @@ description2.setAttribute('id','desc2')
 description2.innerHTML = `Grounds are immersed in the water and allowed to steep for 5 minutes.  Coffee produced from this
 method tends to have a fuller body, with more rounded character to the brew.  Great all around choice!`
 menu.append(description2)
+let desc3 = document.createElement('div')
+desc3.setAttribute('id','desc3')
+desc3.innerHTML = `Coffee grounds are allowed to steep in cool water overnight.  Cold brewing coffee allows for the flavor to be extracted
+slower over a longer period of time.  This results in a mellow, rounded and sweet flavor profile that is full bodied`
+menu.append(desc3)
+let cold = document.createElement('div')
+cold.setAttribute('id','cold')
+cold.innerHTML = 'Cold Brew'
+menu. append(cold)
+
+let price1 = document.createElement('div')
+let price2 = document.createElement('div')
+let price3 = document.createElement('div')
+price1.setAttribute('id', 'price1')
+price2.setAttribute('id', 'price2')
+price3.setAttribute('id', 'price3')
+menu.append(price1,price2,price3)
+price1.innerHTML = '$3.49'
+price2.innerHTML = '$4.00'
+price3.innerHTML = '$4.50'
+
+
+
+
+
+
 
 
 }
