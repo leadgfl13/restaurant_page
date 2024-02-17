@@ -55,13 +55,40 @@ menu.append(price1,price2,price3)
 price1.innerHTML = '$3.49'
 price2.innerHTML = '$4.00'
 price3.innerHTML = '$4.50'
-
-
-
-
-
-
-
-
 }
-export{rendermenu}
+
+
+const renderabout = ()=>{
+    let contentarea = document.getElementById('content')
+    contentarea.innerHTML = ''
+    let about = document.createElement('div')
+    contentarea.append(about)
+    about.setAttribute('id','about')
+    about.innerHTML = `
+    Hours:</br> </br>
+    Mon - 8am - 3pm </br> </br>
+    Tue - 8am - 3pm </br></br>
+    Wed - 8am - 3pm </br></br>
+    Thu - 8am - 3pm </br></br>
+    Fri - 8am - 3pm </br></br>
+    Sat - 12pm - 3pm </br></br>
+    Sun - 12pm - 3pm`
+    }
+
+    const rendermain =()=>{
+        let contentarea = document.getElementById('content')
+        contentarea.innerHTML = ''
+        let homecontent = document.createElement('div')
+        contentarea.append(homecontent)
+        homecontent.setAttribute('id','homecontent')
+        let square1 = document.createElement('div')
+        square1.setAttribute('id','greeting')
+        square1.innerHTML = `Leader's Cafe`
+        homecontent.append(square1)
+        
+    }
+    
+    
+    
+    
+export{rendermenu, renderabout, rendermain}
