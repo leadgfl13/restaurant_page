@@ -4,6 +4,7 @@
   "description": "practice for webpack and npm",
   "main": "index.js",
   "scripts": {
+    "pushpage": "git subtree push --prefix dist origin gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
     "build": "webpack"
