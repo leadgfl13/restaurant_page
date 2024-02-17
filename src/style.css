@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'chalk';
+    src: url('./chalk.otf') format('woff2'),
+      url('./chalk.otf') format('woff');
+    font-weight: 600;
+    font-style: normal;
+  }
+
 body{
     margin:0px;
     background-image:url('/coffeebeans.jpeg');
@@ -30,7 +38,7 @@ nav{
     width:100%;
     margin-bottom:0px;
     background-color:rgb(85, 92, 63);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'chalk';
     font-size:36px;
     text-decoration: underline;
 }
@@ -76,12 +84,12 @@ nav{
     width:auto;
     position:absolute;
     top:40%;
-    left:57%;
+    left:45%;
     font-weight:800;
     display:flex;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:64px;
-    color:rgb(17, 31, 4);
+    font-family:'chalk';
+    font-size:60px;
+    color:black;
     justify-content:center;
     text-decoration:underline;
     align-items:center;
@@ -118,8 +126,10 @@ nav{
     font-weight:700;
     display:flex;
     justify-content:center;
+    font-family:'chalk';
+
     align-items:center;
-    font-size:24px;
+    font-size:16px;
     text-align:center;
     margin-top:0px; 
     background-color:rgb(142, 151, 128);
@@ -140,7 +150,7 @@ nav{
     font-size:48px;
     text-decoration: underline;
     border:2px solid underline;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'chalk';
 
 }
 
@@ -154,7 +164,7 @@ nav{
     font-size:48px;
     text-decoration: underline;
     border:2px solid underline;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'chalk';
   
 }
 
@@ -163,10 +173,10 @@ nav{
     display:flex;
     align-items:center;
     justify-content:center;
-    font-size:20px;
+    font-size:13px;
     text-decoration: underline;
     border:2px solid underline;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'chalk';
 }
 
 #desc2{
@@ -174,10 +184,10 @@ nav{
     display:flex;
     align-items:center;
     justify-content:center;
-    font-size:20px;
+    font-size:13px;
     text-decoration: underline;
     border:2px solid underline;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'chalk';
 }
 
 #desc3{
@@ -185,10 +195,10 @@ nav{
     display:flex;
     align-items:center;
     justify-content:center;
-    font-size:20px;
+    font-size:13px;
     text-decoration: underline;
     border:2px solid underline;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'chalk';
 }
 
 #price{
@@ -200,7 +210,7 @@ nav{
     font-size:48px;
     text-decoration: underline;
     border:2px solid underline;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'chalk';
 }
 
 
@@ -209,10 +219,10 @@ nav{
     display:flex;
     align-items:center;
     justify-content:flex-start;
-    font-size:36px;
+    font-size:20px;
     font-weight:600;
     text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'chalk';
 }
 
 #style2{
@@ -220,10 +230,10 @@ nav{
     display:flex;
     align-items:center;
     justify-content:flex-start;
-    font-size:36px;
+    font-size:20px;
     font-weight:600;
     text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'chalk';
 }
 
 #cold{
@@ -231,10 +241,10 @@ nav{
     display:flex;
     align-items:center;
     justify-content:flex-start;
-    font-size:36px;
+    font-size:20px;
     font-weight:600;
     text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'chalk';
 
 }
 
@@ -244,10 +254,10 @@ nav{
     display:flex;
     align-items:center;
     justify-content:flex-end;
-    font-size:40px;
+    font-size:20px;
     font-weight:800;
     text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'chalk';
 }
 #price2{
     padding-right:10px;
@@ -255,10 +265,10 @@ nav{
     display:flex;
     align-items:center;
     justify-content:flex-end;
-    font-size:40px;
+    font-size:20px;
     font-weight:800;
     text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'chalk';
 }
 #price3{
     padding-right:10px;
@@ -266,8 +276,44 @@ nav{
     display:flex;
     align-items:center;
     justify-content:flex-end;
-    font-size:40px;
+    font-size:20px;
     font-weight:800;
     text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'chalk';
 }
+
+#tag{
+
+    font-size:36px;
+    display:flex;
+    height:350px;
+    color:white;
+    width:350px;
+    background-color:black;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    font-family:'chalk';
+    position:absolute;
+    left:10%;
+    top:20%;
+    border: white 4px groove;
+    
+}
+
+#logo{
+    font-size:36px;
+    display:flex;
+    height:350px;
+    background-image: url('/logo.webp');
+    background-size:cover;
+    width:350px;
+    background-color:black;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    font-family:'chalk';
+    position:absolute;
+    right:10%;
+    top:20%;
+    border: white 4px groove;}

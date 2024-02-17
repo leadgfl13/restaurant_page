@@ -44,7 +44,6 @@ let cold = document.createElement('div')
 cold.setAttribute('id','cold')
 cold.innerHTML = 'Cold Brew'
 menu. append(cold)
-
 let price1 = document.createElement('div')
 let price2 = document.createElement('div')
 let price3 = document.createElement('div')
@@ -58,6 +57,8 @@ price3.innerHTML = '$4.50'
 }
 
 
+
+
 const renderabout = ()=>{
     let contentarea = document.getElementById('content')
     contentarea.innerHTML = ''
@@ -65,15 +66,27 @@ const renderabout = ()=>{
     contentarea.append(about)
     about.setAttribute('id','about')
     about.innerHTML = `
-    Hours:</br> </br>
+    Hours:</br>
     Mon - 8am - 3pm </br> </br>
     Tue - 8am - 3pm </br></br>
     Wed - 8am - 3pm </br></br>
     Thu - 8am - 3pm </br></br>
     Fri - 8am - 3pm </br></br>
     Sat - 12pm - 3pm </br></br>
-    Sun - 12pm - 3pm`
+    Sun - 12pm - 3pm </br> </br>
+    1100 Coffe Bean Lane
+    `
+    let description = document.createElement('div')
+    description.innerHTML = "Proudly serving the finest coffees since 2023"
+    contentarea.append(description)
+    description.setAttribute('id','tag')
+    let logo = document.createElement('div')
+    logo.setAttribute('id', 'logo')
+    contentarea.append(logo)
     }
+
+
+
 
     const rendermain =()=>{
         let contentarea = document.getElementById('content')
